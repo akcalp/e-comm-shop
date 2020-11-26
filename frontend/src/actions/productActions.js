@@ -7,7 +7,6 @@ import {
     PRODUCT_DETAILS_SUCCESS,
     PRODUCT_DETAILS_REQUEST
 } from "../constants/productConstants";
-import thunk from "redux-thunk";
 
 export const listProducts = () => async (dispatch) => {
     try {
